@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/form.css">
+    <link rel="stylesheet" href="/all.css">
+
+</head>
+
+<body>
+    <%- include("nav")%>
+        <center>
+            <form action="/user/login" class="col-5 mx-auto shadow p-4 rounded-3" method="post">
+                <input type="email" name="email" class="form-control form-control-lg " placeholder="email" id="email"
+                    required><br><br>
+
+                <input type="password" name="password" class="form-control form-control-lg " placeholder="password"
+                    id="password" required><br><br>
+
+                <button type="submit" class="btn btn-dark m-t-5 border-none">Login</button>
+
+            </form>
+        </center>
+</body>
+
+</html>

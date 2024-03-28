@@ -1,0 +1,57 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+
+
+
+input,
+::placeholder {
+    font-family: "Tektur", cursive;
+    font-size: 15px;
+    text-transform: capitalize;
+
+
+}
+
+.form-input {
+    position: relative !important;
+
+}
+
+
+
+.signup:hover {
+    box-shadow: 10px 10px 10px rgba(40, 41, 41, 0.616) !important;
+}
+
+/* form:hover{
+    box-shadow: 0px 20px 20px rgba(40, 41, 41, 0.616) !important;
+} */
+
+span {
+    position: absolute !important;
+    right: 25px !important;
+    font-size: 26px;
+    top: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+    /* z-index: 999999; */
+
+
+
+
+}
+
+
+select,
+option {
+    font-family: "Tektur", cursive;
+    font-size: 15px;
+    border: none;
+    text-transform: capitalize;
+}
+
+
+.btn-dark:hover {
+    background-color: #1c1f23c5 !important;
+
+}

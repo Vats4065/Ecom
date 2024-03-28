@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <%- include("nav")%>
+        <form action="">
+            <input type="text" placeholder="enter the title of product" name="title" required>
+            <br>
+            <textarea name="description" id="" cols="30" rows="6" required></textarea>
+            <br>
+            <input type="number" name="price" id="" required>
+            <br>
+            <input type="url" name="" placeholder="enter image link" id="" name="image">
+            <br>
+            <select name="category" id="" required>
+                <option value="Man">Man</option>
+                <option value="Woman">Woman</option>
+                <option value="Kids">Kids</option>
+                <option value="Watch">Watch</option>
+                <option value="Shoes">Shoes</option>
+            </select>
+            <br>
+            <button type="submit">Add Product</button>
+        </form>
+</body>
+
+</html>
